@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коллекция матрёшек</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"> 
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/d5764977c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <span class="logo__name">БАБА СВЕТА</span> <br>
+            <span class="logo__description">авторские матрёшки</span>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li class="menu__item">
+                    <a href="index.html" class="menu__link">Главная</a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="collection.html" class="menu__link menu__link--active">Коллекция</a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="contact.html" class="menu__link">Написать</a>
+                </li>
+            </ul>
+        </nav>  
+
+    </header>
+
+    <main class="collection">
+
+        <div class="collection__intro">
+            <h2>Коллекция «три девицы под окном»</h2>
+            <img class="collection__ornament" src="images/ornaments/ornament-small.png" alt="">
+            <p class="collection__intro-description" >Три характера. Три образа. <br>
+                Каждая матрёшка создана вручную в единственном экземпляре.</p>
+        </div>
+
+        <div class="collection__cards">
+
+           <div class="collection__item">
+                <img src="images/kupava.jpg" 
+                     class="collection__photo collection__photo--kupava" 
+                     alt="Матрёшка Купава">
+                <div class="collection__item-content">
+                    <p class="collection__doll-name">Купава</p>
+                    <i class="fa-solid fa-snowflake collection__icon--kupava"></i>
+                    <p class="collection__card-description" >Холодная, как первый снег, и немного кокетливая. <br>
+                         Купава любит тишину, серебряный блеск и зимнее солнце — 
+                        но за её спокойствием прячется настоящий характер.</p>
+
+                    <div class="collection__card-bottom">
+                        <a href="contact.html" class="collection__availability">Доступна</a>
+                        <p class="collection__price">21 800
+                        <i class="fa-solid fa-ruble-sign"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collection__item">
+                <img src="images/marfa.jpg" 
+                     class="collection__photo"
+                     alt="Матрёшка Марфа">
+                <div class="collection__item-content">
+                    <p class="collection__doll-name">Марфа</p>
+                    <i class="fa-solid fa-gem collection__icon--marfa"></i>
+                    <p class="collection__card-description" >Статная, гордая и немного своенравная. <br>
+                        Марфа любит быть в центре внимания: бордовый бархат, 
+                        золото и маленькая брошь ей очень к лицу.</p>
+
+                    <div class="collection__card-bottom">
+                        <a href="contact.html" class="collection__availability">Доступна</a>
+                        <p class="collection__price">20 500
+                        <i class="fa-solid fa-ruble-sign"></i>
+                        </p>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="collection__item">
+                <img src="images/alena.jpg"
+                     class="collection__photo collection__photo--alena"
+                     alt="Матрёшка Алёна">
+                <div class="collection__item-content">
+                    <p class="collection__doll-name">Алёна</p>
+                    <i class="fa-brands fa-pagelines collection__icon--alena"></i>
+                    <p class="collection__card-description" >Лёгкая, добрая и чуть мечтательная. <br>
+                         Алёна будто принесла с собой запах луговых цветов — 
+                        ей не нужны драгоценности, чтобы нравиться. Её красота в простоте.</p>
+
+                    <div class="collection__card-bottom">
+                        <a href="contact.html" class="collection__availability">Доступна</a>
+                        <p class="collection__price">18 600
+                        <i class="fa-solid fa-ruble-sign"></i>
+                        </p>
+                    </div>
+                </div>    
+            </div>
+
+           </div>
+
+            <div class="collection__table">
+            
+              <h3>Материалы и особенности</h3>
+
+                <table>
+
+                    <colgroup>  <!-- Ширины четырёх столбцов таблицы -->
+                        <!-- 1-й столбец: название матрёшки -->
+                        <col class="collection__col-model">
+                        <!-- 2-й столбец: основа -->
+                        <col class="collection__col-base">
+                        <!-- 3-й столбец: декор -->
+                        <col class="collection__col-decor">
+                        <!-- 4-й столбец: орнамент -->
+                        <col class="collection__col-ornament">
+                    </colgroup>
+
+                    <thead>  <!-- Шапка таблицы -->
+                        <tr>
+                            <th>Модель</th>
+                            <th>Основа</th>
+                            <th>Декор</th>
+                            <th>Орнамент</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Купава</td>
+                            <td>Полимерная глина</td>
+                            <td>Жемчуг и декоративные бусины, меховая отделка, кокошник, кукольное волокно</td>
+                            <td>Растительный орнамент</td>
+                        </tr>
+
+                        <tr>
+                            <td>Марфа</td>
+                            <td>Полимерная глина</td>
+                            <td>Золотая вышивка, декоративная тесьма, брошь, украшения, кукольное волокно</td>
+                            <td>Орнаментальная роспись</td>
+                        </tr>
+
+                        <tr>
+                            <td>Алёна</td>
+                            <td>Полимерная глина</td>
+                            <td>Цветочная ткань, кружево, декоративный пояс, цветочный веночек, кукольное волокно</td>
+                            <td>Цветочный орнамент</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+    </main>
+
+        <footer class="footer">
+        
+        <div class="footer__container">
+
+            <div class="footer__info">
+                <p class="footer__copyright">Баба Света &#169; 2026</p> 
+                <p class="footer__paragraph">Изделия являются интерьерными предметами ручной работы и не предназначены для детской игры</p>
+            </div>
+
+            <div class="footer__legal">
+                <a target="_blank" href="#" class="footer__legal-link">Пользовательское соглашение</a>
+                <a target="_blank" href="#" class="footer__legal-link">Политика конфиденциальности</a>
+            </div>
+
+            <div class="footer__contacts">
+                <p class="footer__title">Связаться</p>
+                <p class="footer__contacts-links">
+                    <a target="_blank" rel="noopener noreferrer" href="#">VK</a> &#183;
+                    <a target="_blank" rel="noopener noreferrer" href="#">Telegram</a> &#183;
+                    <a href="mailto:example@mail.ru">Email</a>
+                </p>
+            </div>
+
+        </div>    
+
+    </footer>
+
+</body>
+</html>
